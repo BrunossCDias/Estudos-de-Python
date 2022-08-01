@@ -1,5 +1,5 @@
 #utilizar estruturas condicionais simples e compostas nos seus programas em Python.
-aplicando os comandos if: e else: no Python.
+#aplicando os comandos if: e else: no Python.
 
 
 
@@ -17,7 +17,8 @@ print('Tenho um Bom Dia, {}'.format(nome))
 
 
 #Exercicios
-print('Exe 1')
+
+print('Exercicio 1')
 '''Crie um programa que eprove um emprestimo bancario para a compra de uma casa
 O programa vai perguntar o valor da casa, o salario do comprador e em quantos 
 anos ele vai pagar a divida.
@@ -38,39 +39,39 @@ else:
 
 
 
-print('Exe 2')
+print('Exercicio 2')
 '''# Ecreva um programa que leia um numero inteiro qualquer e peça para o usuario escolher qual sera a 
 base de conversão.'''
-num = int(input('Qual numero inteiro ?' ))
+numero = int(input('Qual numero inteiro ?' ))
 print('''Escolha uma das opções abaixo para conversão :
 [1] converter para BINARIO
 [2] converter para OCTAL
 [3] converter para EXADECIMAL''')
 opcao = int(input('Sua opção: '))
 if opcao == 1:
-    print('{} Convertido para BINARIO é igual a {}'.format(num, bin(num)[2::]))
+    print('{} Convertido para BINARIO é igual a {}'.format(numero, bin(numero)[2::]))
 elif opcao == 2:
-    print('{} Convertido para OCTAL é {}'.format(num, oct(num)[2::]))
+    print('{} Convertido para OCTAL é {}'.format(numero, oct(numero)[2::]))
 elif opcao == 3:
-    print('{} Convertido para EXADECIMAL é {}'.format(num, hex(num)[2::]))
+    print('{} Convertido para EXADECIMAL é {}'.format(numero, hex(numero)[2::]))
 
 
-print('Exe 3')
+print('Exercicio 3')
 '''Escreva um programa que leia dois números inteiros e compare-os. mostrando na tela uma mensagem:
 - O primeiro valor é maior
 - O segundo valor é maior
 - Não existe valor maior, os dois são iguais'''
 
-n1 = int (input('Digite um numero :'))
-n2 = int (input('Digite outro numero :'))
-if n1 > n2:
-    print(' O numero {} é maior que o numero {}'.format(n1, n2))
-elif n2 > n1:
-    print('O meior {} é maior que o numero {}'.format(n2, n1))
+numero1 = int (input('Digite um numero :'))
+numero2 = int (input('Digite outro numero :'))
+if numero1 > numero2:
+    print(' O numero {} é maior que o numero {}'.format(numero1, numero2))
+elif numero2 > numero1:
+    print('O meior {} é maior que o numero {}'.format(numero2, numero1))
 else:
     print('Não existe valor maior, os dois são iguais')
 
-print('Exe 4')
+print('Exercicio 4')
 '''Faça um programa que leia o ano de nascimento de um jovem e informe, de acordo com a sua idade,
 se ele ainda vai se alistar ao serviço militar, se é a hora exata de se alistar ou se já passou do 
 tempo do alistamento. Seu programa também deverá mostrar o tempo que falta ou que passou do prazo.'''
@@ -94,7 +95,7 @@ elif idade > 18:
     print('Você deveria ter se alistado em {} !'.format(anob))
 
 
-print('Exerc 5')
+print('Exercicio 5')
 #Crie um programa que jogue com o usuario, PREDRA,PAPEL e TESOURA.
 
 from time import sleep
@@ -111,6 +112,7 @@ print('PÔ !!!')
 
 
 # Estruta versatil com o laço FOR
+
 s = 0
 for vezes in range(0, 4):
     valor = int(input('Digite um valaor: '))
@@ -129,7 +131,7 @@ for repetir in range (inicio, fim+1, passo ):
 print('\033[0;31;40mFIM ! \033[m')
 
 
-print('Exerc 6')
+print('Exercicio 6')
 
 from time import sleep
 from random import randint
