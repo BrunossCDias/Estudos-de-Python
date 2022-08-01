@@ -171,7 +171,32 @@ print('\033[0;31;40mFIM ! \033[m')
 
 #Exercicios
 
+print('Exercicio 1')
+#Programa que faça uma contagem regressiva de 10 até 0.
 
+from time import sleep
+for regressao in range(10, -1, -1):
+    sleep(1)
+    print(regressao)
+
+   
+print('Exercicio 2')
+# Programa que calcule a soma entre todos os números que são múltiplos de três 
+# e que se encontram no intervalo de 1 até 500.
+soma = 0
+contador = 0
+for impares in range(1, 501, 2):
+    if impares % 3 == 0:
+        soma += impares
+        contador += 1
+print('A soma de todos os {} numero impares multiplos de 3 é {}'.format(contador, soma))
+ #ou
+s = c = 0
+for n in range(1, 501, 2):
+    if n % 3 == 0:
+        c += 1
+        s += n
+print(f"A soma de todos os {c} valores solicitados é {s}.")
 
 
 
