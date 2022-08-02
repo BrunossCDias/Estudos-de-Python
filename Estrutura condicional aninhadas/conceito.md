@@ -1,11 +1,11 @@
 
 # Oque é ? 
 
-Estruturas condicionais aninhadas simples, e compostas, são compostas por comandos  if:, elif, e else:
+Estruturas condicionais aninhadas simples, e compostas, são algoritmos bem estrurados por comandos  if:, elif, e else:
 
 #Para que serve?
 
-Para darmos prioridade para cada condição.
+Para definirmos prioridade a cada condição.
 
 
 Exemplo:
