@@ -1,7 +1,7 @@
 
 # Oque é ? 
 
-Estruturas de controle condicional aninhadas simples, e compostas, são algoritmos bem estrurados por comandos  if:, elif, e else:
+Estruturas de controle condicional aninhadas simples, e compostas, são sintaxe bem estrurados por comandos  if:, elif, e else:
 
 #Para que serve?
 
