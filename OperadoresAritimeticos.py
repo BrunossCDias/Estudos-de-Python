@@ -158,3 +158,5 @@ oposto = float(input('Digite o valor oposto: '))
 adjacente = float(input('Digite o valor adjacente: '))
 hip = math.hypot(oposto, adjacente)
 print('A hipotenusa vai medir {:.2f}'.format(hip))
+
+#teste git
