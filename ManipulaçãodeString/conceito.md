@@ -1,7 +1,7 @@
 OQUE É ?
 
    O python considera tudo que esta entre a aspas simples ou duplas uma string.
-   A Manipulação de sequencia de caracteres/textos ou strings 'str', é feita com as funções abaixo, é possivel também combina-las.
+   A Manipulação de uma sequencia de caracteres/textos ou strings 'str', é feita com as funções abaixo, é possivel também combina-las.
 para que se chegue no resultado desejado no programa.
 
 
