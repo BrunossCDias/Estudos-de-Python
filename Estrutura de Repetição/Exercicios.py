@@ -1,6 +1,13 @@
 
 
-Exercicios
+nomes = ['Pedro', 'João', 'Leticia']
+for n in nomes:
+     print(n)
+else:
+     print("Todos os nomes foram listados com sucesso")
+
+
+#Exercicios
 
 print('Exercicio 1')
 
@@ -62,7 +69,7 @@ contador1 = 0
 somador = 0
 for repetir in range (1, 7):
     numero2 = int(input('Digite o {}˚ valor: '.format(repetir)))
-    if numero % 2 == 0:
+    if numero2 % 2 == 0:
         somador += numero2
         contador1 += 1
 print('Voce informou {} numeros PAERES, e a soma de todos eles é {}'.format(contador1, somador))
