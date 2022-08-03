@@ -1,33 +1,7 @@
-# Manipulando cadeias de caracteres/textos ou strings com as operações abaixo, e é possivel combina-las.
-
-
-import split
-
-frase = ' cursando aulas de python '
-
-print (frase [1:5:3])
-print(frase.upper())
-print(frase.count('o'))
-print(len(frase))
-print (len(frase.strip()))
-print(frase.replace('aulas', 'video aulas'))
-print(frase)
-frase = frase.replace('aulas', 'video aulas')
-print(frase)
-print(frase.find('video'))
-
-# uma string será dividida em lista pelos seus espaços
-print(frase.split())
-dividida = frase.split()
-# imprima 2° lista e a terceira letra da palavra splitada.
-print( dividida [0][3])
-' '.join(frase)
-print(frase)
-
 print('Exercicio 1')
-#Programa que leia o nome completo de uma pessoa e mostre: 
+#Programa que leia o nome completo de uma pessoa e mostre:
 # O nome com todas as letras maiúsculas e minúsculas.
-# Quantas letras tem ao todo (sem considerar espaços).
+# Quantas letras tem ao todo (sem considerar os espaços).
 # Quantas letras tem o primeiro nome.
 
 from time import sleep
@@ -47,6 +21,3 @@ nome = str(input("Insira um nome: ")).upper().strip()
 print('A letra A aparece {}'.format(nome.count('A')))
 print('A primeira letra A aparece na posição {}'.format(nome.find('A')+1))
 print('A ultima letra A aparece na posição {}'.format(nome.rfind('A')+1))
-
-
-
