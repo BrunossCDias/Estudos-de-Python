@@ -24,19 +24,30 @@ print(frase.find('video'))
 
     Transformação 
 print(frase.replace('aulas', 'video aulas'))
+
 print(frase)
+
 frase.upper()
+
 frase.lower()
+
 frase = frase.replace('aulas', 'video aulas')
+
 print(frase)
 
     Uma string será dividida em lista pelos seus espaços.
 print(frase.split())
+
 dividida = frase.split()
 
     Imprima 2° lista, e a terceira letra da palavra splitada.
 print( dividida [0][3])
+
 ' '.join(frase)
+
 print(frase)
 
     O operador IN verifica se algo esta em alguma string.
+    #Exemplo 
+    Nome = 'Bruno Souza'
+    print ('B'in Nome)
