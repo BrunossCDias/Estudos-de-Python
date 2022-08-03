@@ -1,26 +1,3 @@
-# Operadores aritméticos
-
-a = 2
-b = 3
-c = 5
-
-print ( a + b )
-print ( a + b - c )
-print ( b / a )
-print ( b // a )
-print ( c % a )
-print ( a ** a )
-
-# Ordem de precedência.
-#1 ()
-#2 **
-#3 * / // %
-#4 + -
-
-import math
-import random
-
-
 print('Exercicio 1')
 
 # 1º Imprima soma, multiplicação, média, divisao inteira e potenciação.
@@ -48,7 +25,7 @@ print(f"e o sucessor de {num1} é {num3}")
 
 
 print('Exercicio 3')
-#3ª Imprima o dobro, triplo, e a raiz quadrada.
+#3ª Imprima o dobro, o triplo, e a raiz quadrada.
 
 nu1 = int(input('ínsira um numero :'))
 nu2 = nu1 * 2
@@ -158,5 +135,3 @@ oposto = float(input('Digite o valor oposto: '))
 adjacente = float(input('Digite o valor adjacente: '))
 hip = math.hypot(oposto, adjacente)
 print('A hipotenusa vai medir {:.2f}'.format(hip))
-
-#comentario web
