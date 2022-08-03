@@ -40,3 +40,4 @@ print(f'Milhar:{numero[0]}')
 print('Exercicio 4')
 
 # Programa que leia o nome de uma cidade diga se ela começa ou não com o nome "SANTO".
+

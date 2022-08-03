@@ -3,11 +3,12 @@
    O python considera tudo que esta entre a aspas simples ou duplas uma string.
    A Manipulação de uma sequencia de caracteres/textos ou strings 'str', é feita com as funções abaixo, é possivel também combina-las.
 para que se chegue no resultado desejado no programa.
+   Uma string é imutavel, a nao ser que  utilize uma função  de transformação de string e faça uma atribuição.
 
 
 import split
 
-frase = ' cursando aulas de python '
+frase = ' Cursando aulas de python '
 
     Fatiamento de string.
 print (frase [1:5:3])
@@ -22,7 +23,7 @@ print(frase.count('o', 0, 13'))
 
 print(frase.find('video'))
 
-    Transformação 
+    Transformação, e substituição.
 print(frase.replace('aulas', 'video aulas'))
 
 print(frase)
@@ -39,6 +40,9 @@ print(frase)
 print(frase.split())
 
 dividida = frase.split()
+
+print(dividida)
+
 
     Imprima 2° lista, e a terceira letra da palavra splitada.
 print( dividida [0][3])
