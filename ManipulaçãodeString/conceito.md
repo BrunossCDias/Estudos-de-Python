@@ -15,8 +15,11 @@ print (frase [1:5:3])
 
     Analise 
 print(len(frase))
+
 print (len(frase.strip()))
+
 print(frase.count('o', 0, 13'))
+
 print(frase.find('video'))
 
     Transformação 
