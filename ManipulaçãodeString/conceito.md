@@ -1,4 +1,4 @@
-OQUE É ?
+   OQUE É ?
 
    O python considera tudo que esta entre a aspas simples ou duplas uma string.
    A Manipulação de uma sequencia de caracteres/textos ou strings 'str', é feita com as funções abaixo, é possivel também combina-las.
@@ -12,7 +12,6 @@ frase = ' cursando aulas de python '
     Fatiamento de string.
 print (frase [1:5:3])
 
-print(frase.upper())
 
     Analise 
 print(len(frase))
