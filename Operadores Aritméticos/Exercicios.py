@@ -1,3 +1,5 @@
+import math
+
 print('Exercicio 1')
 
 # 1º Imprima soma, multiplicação, média, divisao inteira e potenciação.
@@ -5,13 +7,13 @@ n1 = int (input ('Digite um numero : '))
 n2 = int (input('Digite outro numero : '))
 
 soma = n1 + n2
-multiplicação = n1 * n2
+multiplicacao = n1 * n2
 mdivisao = (n1 + n2) /2
 divisaointeira = n1 // n2
-potenciação  = n1 ** n2
+potenciacao  = n1 ** n2
 modulo = n1 % n2
-print(f'A soma é {soma}, a mulplicação é {multiplicação} a media é {mdivisao}')
-print(f'A divisão inteira {divisaointeira} e a potenciacão {potenciação}')
+print(f'A soma é {soma}, a mulplicação é {multiplicacao} a media é {mdivisao}')
+print(f'A divisão inteira {divisaointeira} e a potenciacão {potenciacao}')
 print (f'O resto da divisao é {modulo}')
 
 print('Exercicio 2')
@@ -123,8 +125,10 @@ print (' O valor digitado foi {} e a sua parte inteira é {}'.format(numero2, in
 
 print('Exercicio 12')
 
+
 #Programa que leia o cateto oposto, o adjacente de um triangulo, e imprima o comprimemnto da hipotenusa.
 # o quadrado da hipotenusa, é a soma dos quadrados dos catetos elevado a 0,5
+
 
 cateoposto = float(input('Digite o valor do cateto oposto: '))
 cateadjacente = float(input('Digite o valor do cateto adjacente: '))
