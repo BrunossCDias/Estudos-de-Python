@@ -71,9 +71,9 @@ print('{} x {:2} = {}'.format(mult, 9, mult*9))
 print('{} x {:2} = {}'.format(mult, 10, mult*10))
 
 
-multiplos = int(input ('Insira um numero para saber seus multiplos : '))
-for contador in range(1, 11):
-    print('{} x {:2} = {}'.format(multiplos, contador, mult*contador))
+multiplo = int(input ('Insira um numero para saber seus multiplos : '))
+for multiplicador in range(1, 11):
+    print(f'{multiplo} x {multiplicador:2} = {multiplo*multiplicador}')
 
 
 print('Exercicio 7')
