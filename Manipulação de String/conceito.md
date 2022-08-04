@@ -2,7 +2,7 @@
 
    O python considera tudo que esta entre a aspas simples ou duplas uma string.
    A Manipulação de uma sequencia de caracteres/textos ou strings 'str', é feita com as funções abaixo, é possivel também combina-las.
-para que se chegue no resultado desejado no programa.
+para que se chegue ao resultado desejado em seu programa.
    Uma string é imutavel, a nao ser que  utilize uma função  de transformação de string e faça uma atribuição.
 
 
