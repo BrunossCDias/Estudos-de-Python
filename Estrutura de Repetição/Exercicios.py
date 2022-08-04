@@ -18,7 +18,7 @@ s = 0
 for vezes in range(0, 4):
     valor = int(input('Digite um valaor: '))
     s += valor + 1
-print('A soma de todos os valores é {}'.format(s))
+print(f'A soma de todos os valores é {s}')
 print('\033[0;31;40mFIM ! \033[m')
 
 
@@ -51,7 +51,7 @@ for impares in range(1, 501, 2):
     if impares % 3 == 0:
         soma += impares
         contador += 1
-print('A soma de todos os {} numero impares multiplos de 3 é {}'.format(contador, soma))
+print(f'A soma de todos os {contador} numero impares multiplos de 3 é {soma}')
  #ou
 s = c = 0
 for n in range(1, 501, 2):
@@ -72,4 +72,14 @@ for repetir in range (1, 7):
     if numero2 % 2 == 0:
         somador += numero2
         contador1 += 1
-print('Voce informou {} numeros PAERES, e a soma de todos eles é {}'.format(contador1, somador))
+print(f'Voce informou {contador1} numeros PAERES, e a soma de todos eles é {somador}')
+
+
+print ('Exercicio 4')
+# Programa que leia o sexo de uma pessoa, mas só aceite os valores 'M' ou 'F'.
+# Caso esteja errado, peça a digitação novamente até ter um valor correto.
+
+sexo = str (input('Informe o seu SEXO : [M/F] ')).strip().upper()[0]
+while sexo not in 'MmFf':
+    sexo = str(input('Dados invalidos ! Por Favor informe seu SEXO:  ')).strip().upper()
+print(f'O seu sexo {sexo} foi registrado com sucesso. ')
