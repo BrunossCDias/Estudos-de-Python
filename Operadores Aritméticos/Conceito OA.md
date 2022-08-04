@@ -1,8 +1,8 @@
 Oque é ?
 
-    Na linguagem pyhton existe diversos operadores entre eles estão os aritméticos, que são utilizados na resolução de operações matemáticas. 
-    e deve ser respeitado as suas ordens de precedência.
-    Utilizamos o sinar de igual para atribuir rotulo a uma variavel
+    Na linguagem pyhton existe diversos operadores entre eles estão os aritméticos, que são 
+    utilizados na resolução de operações matemáticas.
+    O sinar de igual usamos para atribuir rotulo a uma variavel
 a = 2
 
 b = 3
