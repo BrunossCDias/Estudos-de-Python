@@ -2,7 +2,7 @@ Oque é ?
 
     Na linguagem pyhton existe diversos operadores entre eles estão os aritméticos, que são 
     utilizados na resolução de operações matemáticas.
-    O sinar de igual usamos para atribuir rotulo a uma variavel
+    o '=' é usado para a variável receber um valor.
 a = 2
 
 b = 3
