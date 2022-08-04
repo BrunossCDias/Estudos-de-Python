@@ -81,7 +81,7 @@ print('Exercicio 7')
 
 real = float(input('Insira um valor ? R$ '))
 dolar = real / 5.48
-print('Com R${:.2f} é possivel comprar  U${:.2f} dolares'.format(real, dolar))
+print(f'Com R${real:.2f} é possivel comprar  U${dolar:.2f} dolares')
 
 
 print('Exercicio 8')
@@ -91,7 +91,7 @@ print('Exercicio 8')
 largura = float(input('Qual a largura da parede ? '))
 altura = float(input('Qual a altura da parede ? ' ))
 area = largura * altura
-print('Sua parede tem a dimensao de {} x {} e sua area é de {}m.' .format(largura, altura,area))
+print(f'Sua parede tem a dimensao de {largura} x {altura} e sua area é de {area}m.')
 litros = area /2
 print(f'Para pintar essa parede, vai ser necessario uma quantidade de {litros}l de tinta.')
 
@@ -117,10 +117,10 @@ print('Exercicio 11')
 #Imprima a parte inteira de um numero real.
 
 numero1 = float(input('Insira um numero : '))
-print('O valor é {} e a sua parte inteira é {}'.format(numero1,math.trunc(numero1)))
+print(f'O valor é {numero1} e a sua parte inteira é {math.trunc(numero1)}')
 
 numero2 = float((input('Digite um numero : ')))
-print (' O valor digitado foi {} e a sua parte inteira é {}'.format(numero2, int(numero2)))
+print (f' O valor digitado foi {numero2} e a sua parte inteira é {int(numero2)}')
 
 
 print('Exercicio 12')
@@ -133,9 +133,9 @@ print('Exercicio 12')
 cateoposto = float(input('Digite o valor do cateto oposto: '))
 cateadjacente = float(input('Digite o valor do cateto adjacente: '))
 hipotenusa = (cateoposto ** 2 + cateadjacente ** 2) ** (1/2)
-print('A hipotenusa vai medir {:.2f}'.format(hipotenusa))
+print(f'A hipotenusa vai medir {hipotenusa:.2f}')
 
 oposto = float(input('Digite o valor oposto: '))
 adjacente = float(input('Digite o valor adjacente: '))
 hip = math.hypot(oposto, adjacente)
-print('A hipotenusa vai medir {:.2f}'.format(hip))
+print(f'A hipotenusa vai medir {hip:.2f}')
