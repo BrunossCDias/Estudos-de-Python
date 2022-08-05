@@ -151,3 +151,41 @@ while not acertou:
         if jogador > computador:
             print('Menos, tente novamente.')
 print(f'PARABÉNS você acertou com {jogadas} tentativas. !')
+
+
+print ('Exercicio 7')
+#Programa que lê um primeiro termo e a razão de uma PA, mostrando os 10 primeiros termos
+# da progressão usando a estrutura while.
+
+primeiro = int(input('Insira um termo: '))
+razao = int(input('Insira uma razão da PA: '))
+termo = primeiro
+cont = 1
+while cont <= 10:
+    print(f'{termo}')
+    termo += razao
+    cont += 1
+print('FIM')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
