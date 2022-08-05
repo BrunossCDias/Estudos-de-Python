@@ -1,4 +1,6 @@
-
+inicio = int(input('digite um numero: '))
+for start in range (0, inicio+1)
+    print(start)
 
 nomes = ['Pedro', 'João', 'Leticia']
 for n in nomes:
@@ -102,11 +104,11 @@ numer1 = int(input('Digite um numero: '))
 numer2 = int(input("Digite outro numero: "))
 opcao = 0
 while opcao != 5:
-    print ('''[ 1 ] somar
-[ 2 ] Multiplicar
-[ 3 ] Maior
-[ 4 ] Novos números
-[ 5 ] Sair do programa ''')
+    print ('''  [ 1 ] somar
+    [ 2 ] Multiplicar
+    [ 3 ] Maior
+    [ 4 ] Novos números
+    [ 5 ] Sair do programa ''')
     opcao = int(input("======> Escolha uma opção: "))
     if opcao == 1:
         print(f'O resutado da soma entre os dois valore é {numer1+numer2}.')
