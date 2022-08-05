@@ -4,14 +4,14 @@
 
 nome = str(input('Qual seu nome? '))
 if nome == 'Bruno':
-    print( 'Que nome bonito !')
+    print('Que nome bonito !')
 elif nome == 'Gustavo' or nome == 'Amanda' or nome == 'Bruna':
     print('Seu nome é bem popular no Brasil !')
 elif nome in 'Paula Joao Batista Carmen':
-    print('Que belo nome !'.format(nome))
+    print(f'Que belo nome {nome} !')
 else:
     print('Seu nome é bem normal !')
-print('Tenho um Bom Dia, {}'.format(nome))
+print(f'Tenho um Bom Dia, {nome}')
 
 
 #Exercicios
@@ -28,8 +28,8 @@ salario = float(input('Qual salario mensal ?'))
 anos = int (input('Em quantos anos vai pagar ?'))
 prestacao =  casa / (anos * 12)
 minimo = salario * 30 / 100
-print("Para pagar uma casa de R${:.2f} em {} anos".format(casa,anos))
-print('a prestacão será de R$ {:.2f}'.format(prestacao))
+print(f"Para pagar uma casa de R${casa:.2f} em {anos} anos")
+print(f'a prestacão será de R$ {prestacao:.2f}')
 if prestacao <= minimo:
     print('Você pode realizar o financiamento.')
 else:
@@ -47,11 +47,11 @@ print('''Escolha uma das opções abaixo para conversão :
 [3] converter para EXADECIMAL''')
 opcao = int(input('Sua opção: '))
 if opcao == 1:
-    print('{} Convertido para BINARIO é igual a {}.'.format(numero, bin(numero)[2::]))
+    print(f'{numero} Convertido para BINARIO é igual a {bin(numero)[2::]}.')
 elif opcao == 2:
-    print('{} Convertido para OCTAL é {}.'.format(numero, oct(numero)[2::]))
+    print(f'{numero} Convertido para OCTAL é {oct(numero)[2::]}')
 elif opcao == 3:
-    print('{} Convertido para EXADECIMAL é {}.'.format(numero, hex(numero)[2::]))
+    print(f'{numero} Convertido para EXADECIMAL é {hex(numero)[2::]}')
 
 
 print('Exercicio 3')
@@ -63,9 +63,9 @@ print('Exercicio 3')
 numero1 = int (input('Digite um numero :'))
 numero2 = int (input('Digite outro numero :'))
 if numero1 > numero2:
-    print(' O numero {} é maior que o numero {}.'.format(numero1, numero2))
+    print(f' O numero {numero1} é maior que o numero {numero2}.')
 elif numero2 > numero1:
-    print('O meior {} é maior que o numero {}.'.format(numero2, numero1))
+    print('O meior {numero2} é maior que o numero {numero1}.')
 else:
     print('Não existe valor maior, os dois são iguais.')
 
@@ -78,19 +78,19 @@ from datetime import date
 ano = date.today().year
 nascimento = int(input('Qual ano de nascimento ? '))
 idade = ano - nascimento
-print('Quem nasceu em {} tem {} anos em {}.'.format(nascimento, idade, ano))
+print(f'Quem nasceu em {nascimento} tem {idade} anos em {ano}.')
 if idade == 18:
     print('Você ja deve se alistar este ano. !')
 elif idade < 18:
     faltam = 18 - idade
-    print('Você tem {} anos e  ainda faltam {} anos para o seu alistamento.'.format(idade,faltam))
+    print(f'Você tem {idade} anos e  ainda faltam {faltam} anos para o seu alistamento.')
     anoa = ano + faltam
-    print('O ano do seu alistamento será em {} !'.format(anoa))
+    print(f'O ano do seu alistamento será em {anoa} !')
 elif idade > 18:
     faltam = idade - 18
-    print('Você ja tem {} anos e deveria ter se alistado a {} anos. '.format(idade, faltam))
+    print(f'Você ja tem {idade} anos e deveria ter se alistado a {faltam} anos. ')
     anob = ano - faltam
-    print('Você deveria ter se alistado em {} !'.format(anob))
+    print(f'Você deveria ter se alistado em {anob} !')
     
 print('Exercicio 5')
 #Crie um programa que jogue com o usuario, PREDRA,PAPEL e TESOURA.
@@ -111,8 +111,8 @@ sleep(1)
 print('PÔ !!!')
 
 print("-=" * 11)
-print('Computador jogou {}'.format(itens[computador]))
-print('Jogador jogou {}'.format(itens[jogador]))
+print(f'Computador jogou {itens[computador]}')
+print(f'Jogador jogou {itens[jogador]}')
 print('-=' * 11)
 
 if computador == 0:

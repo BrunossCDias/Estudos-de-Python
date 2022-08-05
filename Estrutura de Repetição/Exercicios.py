@@ -88,7 +88,6 @@ print(f'O seu sexo {sexo} foi registrado com sucesso. ')
 print ('Exercicio 5')
 from time import sleep
 
-print ('Exercicio 5')
 '''Programa que leia dois valores e mostre um menu na tela:
 [ 1 ] somar
 [ 2 ] multiplicar
@@ -145,4 +144,10 @@ while not acertou:
     jogador = int(input('Qual seu palpite ? '))
     jogadas += 1
     if jogador == computador:
-        acertou == True
+        acertou = True
+    else:
+        if jogador < computador:
+            print('Mais, tente novamente.')
+        if jogador > computador:
+            print('Menos, tente novamente.')
+print(f'PARABÉNS você acertou com {jogadas} tentativas. !')
