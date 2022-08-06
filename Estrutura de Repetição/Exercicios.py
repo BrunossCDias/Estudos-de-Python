@@ -56,7 +56,7 @@ for impares in range(1, 501, 2):
 print(f'A soma de todos os {contador} numero impares multiplos de 3 é {soma}')
  #ou
 s = c = 0
-for n in range(1, 501, 2):
+for n in range(1, 501, 2): #
     if n % 3 == 0:
         c += 1
         s += n
@@ -70,7 +70,7 @@ print('Exercicio 3')
 contador1 = 0
 somador = 0
 for repetir in range (1, 7):
-    numero2 = int(input('Digite o {}˚ valor: '.format(repetir)))
+    numero2 = int(input(f'Digite o {repetir}˚ valor: '))
     if numero2 % 2 == 0:
         somador += numero2
         contador1 += 1
