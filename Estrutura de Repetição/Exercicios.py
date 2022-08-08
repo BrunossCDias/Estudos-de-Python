@@ -185,9 +185,43 @@ if total == 2:
 else:print('Não é um número PRIMO')
 
 
+print ('Exercicio 9')
+#programa que leia o ano de nascimento de sete pessoas. No final, mostre quantas
+#pessoas ainda não atingiram a maioridade e quantas já são maiores.
+
+from datetime import date
+ano = date.today().year
+totmaior = 0
+totmenor = 0
+for c in range (1, 8):
+    nascimento = int(input(f'Qual o {c}˚ ano de nascimento: '))
+    idade = ano - nascimento
+    if idade >= 18:
+            totmaior += 1
+    else:
+        idade < 18
+        totmenor += 1
+print(f' Ao todos temos {totmaior} pessoas maiores, e {totmenor} menores de idade')
 
 
+print ('Exercicio 10')
+# Pograma que leia o peso de cinco pessoas.
+# No final, mostre qual foi o maior e o menor peso lidos.
+maior = 0
+menor = 0
+for p in range(1, 6):
+    peso = float (input(f'Qual o {p}˚ peso corporal em kg : '))
+    if p == 1:
+        maior = peso
+        menor = peso
+    else:
+        if peso > maior:
+            maior = peso
+        if peso < menor:
+            menor = peso
 
+print(f'O maior peso é {maior} kg')
+print(f'O menor peso é {menor} kg')
 
 
 
