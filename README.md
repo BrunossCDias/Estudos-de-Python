@@ -1,5 +1,5 @@
 # Estudos-de-Python 
-
+![](https://i.imgur.com/waxVImv.png)
    Neste diretorio estou alimentado todos os meus resumos de conhecimento relativos aos conteudos que estudo diariamente sobre a linguem de programação Python.
 A cada momento entre um novo conteudo, e os exercicios faço uma revisào de tudo, e corrijo os detalhe que vejo necessário, obtendo assim melhorias no conteudo, e fixando o meu conhecimento.
 
