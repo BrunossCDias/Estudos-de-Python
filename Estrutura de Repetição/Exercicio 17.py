@@ -21,7 +21,7 @@ while True:
         menorp = preço
         barato = produto
     resposta = ' '
-    while resposta not in 'S/N':
+    while resposta not in 'SN':
         resposta = str(input('Quer continuar comprando ? [S/N] ')).upper().strip()[0]
     if resposta == 'N':
         break

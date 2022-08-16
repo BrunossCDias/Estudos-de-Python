@@ -5,10 +5,11 @@
 totalcedula = 0
 cedula = 50
 saldo = float(1500.00)
-deposito = saque= opcao = 0
+deposito = saque = opcao = 0
 print('='*30)
-print( 'BEM VINDO AO BANCO BRASILEIRO')
+print('BEM VINDO AO BANCO BRASILEIRO')
 print('='*30)
+totalsaque = 0
 while opcao != 4:
     print('''[ 1 ] Saldo
 [ 2 ] Deposito
@@ -21,7 +22,6 @@ while opcao != 4:
         soma = float(input('Qual valor R$ do seu deposito: '))
         saldo += soma
         print( f'Você depositou R${soma}, e seu saldo é de {saldo:.2f}')
-
     elif opcao == 3:
         saque = float(input('Qual valor deseja sacar ? '))
         totalsaque = saque
@@ -29,7 +29,6 @@ while opcao != 4:
         saldo -= saque
         print(f'Seu saldo atual é de R$ {saldo:.2f}')
         break
-
 print('PRONTO, retire o dinheiro.')
 while True:
     if totalsaque >= cedula:
