@@ -15,10 +15,10 @@ Exemplo:
         
         print(carro[-1:]) 
         
-Podemos tambem detalhar os elementos da tupla dentro de uma repetição FOR. 
+Posso também detalhar os elementos da tupla dentro de uma repetição FOR. 
     
     FOR revisao IN carro:
         
-        print(f'Eu vou fazer uma revisão no {} do meu carro.')
+        print(f'Eu vou fazer uma revisão no {revisao} do carro.')
            
         
