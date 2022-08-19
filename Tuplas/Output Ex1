@@ -1,8 +1,10 @@
-Digite um valor entre 0 e 20: 17
-Você digitou o numero dezessete
+Digite um valor entre 0 e 20: 12
+Você digitou o numero doze
 Tentar novamente ? [S/N]: s
-Digite um valor entre 0 e 20: 19
-Você digitou o numero dezenove
+Digite um valor entre 0 e 20: 24
+Tente novamente...Digite um valor entre 0 e 20: 22
+Tente novamente...Digite um valor entre 0 e 20: 12
+Você digitou o numero doze
 Tentar novamente ? [S/N]: n
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 PROGRAMA ENCERRADO

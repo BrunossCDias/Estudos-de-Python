@@ -1,0 +1,10 @@
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Digite um valor: 12
+Digite outro valor: 3
+Digite mais um valor: 9
+Digite o ultimo valor: 4
+Os valores digitados foram (12, 3, 9, 4)
+O valor 9 aparece 1 vez.
+O valor 3 aparece na 2˚ posição.
+Os valores pares são eles 12, 4
+FIM DO PROGRAMA
