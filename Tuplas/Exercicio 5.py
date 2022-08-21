@@ -19,7 +19,7 @@ for tabela in range(0, len(listagem)):
 
 
 
-''' Definimos um variavel tupla composta de valores em texto, e numeros'''
+''' Definimos uma variavel tupla composta de valores em texto, e numeros'''
 ''' Criamos uma iteração com o FOR, e um range de 0 até o LEN da tupla  '''
 ''' Se IF tabela estiver em uma posição par 'resto da divisão por 2 for 0, vai listar os produtos' '''
 ''' Se não ELSE, vai listar os preços que estão em uma posição impar '''
