@@ -20,5 +20,5 @@ print(f'O time São Paulo esta na posição {brasileirao.index("SãoPaulo")+1}˚
 
 ''' Criei uma variavel tupla chamada brasileirao, com todos os 20 times'''
 ''' Mostrei so 5 primeiros manipulando do indice 0 até o 5'''
-''' Mostrei os 4 ultimos manipulando do indice -4 ate o ultimo indice'''
-''' '''
+''' Mostrei os 4 ultimos manipulando do indice -4 até o ultimo indice'''
+''' Mostrei a posição do elemnto SAO PAULO utilizando o .index somando + 1 '''
