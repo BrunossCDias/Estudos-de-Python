@@ -63,9 +63,13 @@ num.append(25)
 
 num.sort()
 
-for c, v in enumerate(num):
-   
-    print(f'No indice {c}  encontrei o valor {v} !')
+
+Podemos ultilizar a estrutura de repetição FOR para cada indice em número IN enumerate(num), percorrer
+um conjunto de informações e trazer o indice da variavel.
+
+for indice, numero in enumerate(num):
+
+    print(f'No indice {indice}  encontrei o valor {numero} !')
 
 print('FIM DA LISTA.')
 
