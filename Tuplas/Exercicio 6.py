@@ -1,13 +1,15 @@
 
 # Programa que tenha uma tupla com várias palavras (não usar acentos).
 # Depois disso, você deve mostrar, para cada palavra, quais são as suas vogais.
-
-lista = ('amendoin', 'carro', 'pastel', 'dipirona', 'programador', 'python', 'notebook', 'frutas')
-for palavra in lista:
+tupla_de_palavras = ('aaeeiioouu','amendoin', 'carro', 'pastel', 'dipirona', 'programador', 'python', 'notebook', 'frutas',)
+for palavra in tupla_de_palavras:
     print(f'\nNa palavra {palavra.upper()}, tem as vogais = ', end='')
+    vogais_encontradas = []
     for letra in palavra:
-        if letra in 'aeiou':
-            print(letra.upper(), end= ' ')
+        if letra.lower() in 'aeiou':
+            if letra.upper() not in vogais_encontradas:
+                vogais_encontradas.append(letra.upper())
+    print(sorted(vogais_encontradas),end= ' ')
 
 
 ''' Defini uma tupla chamada lista com diversos indices '''
@@ -16,18 +18,3 @@ for palavra in lista:
 ''' Defini mais um FOR para cada letras IN vogais '''
 ''' Defini um IF se a letras tiver IN algum "aeiou" '''
 ''' Dentro da identação do IF eu imprimo se a palavra haver as letras '''
-
-
-
-
-
-vogais = ('a', 'e', 'i', 'o', 'u')
-palavras = ('APRENDER', 'PROGRAMAR', 'LINGUAGEM', 'PYTHON', 'CURSO', 'GRATIS', 'ESTUDAR', 'TRABALHAR')
-
-for palavra in palavras:
-    print(f'Na palavra {palavra} temos as vogais: ', end='')
-
-    for letras in palavra:
-        if (letras.lower() in vogais):
-            print(f'{letras.lower()}', end=' ')
-    print()

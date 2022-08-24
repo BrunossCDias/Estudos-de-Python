@@ -73,6 +73,15 @@ for indice, numero in enumerate(num):
 
 print('FIM DA LISTA.')
 
+As listas podem ser compostas por outras listas, realizando uma copia dos dados com o metodo
+.append[:]
+    
+Ex. 
+numeros = list()
+print(f'{numeros}')
+numeros.append(num[:])
+print(f'Valores é composta por {numeros}')
+
 ===============================================
 
 OUTPUT
@@ -111,4 +120,7 @@ No indice 7  encontrei o valor 25 !
 
 No indice 8  encontrei o valor 34 !
 
-FIM DA LISTA
+
+
+[]
+Valores é composta por [[1, 2, 4, 6, 9, 22, 23, 25, 34]]
