@@ -22,5 +22,5 @@ for palavra in tupla_de_palavras:
 ''' Criei loop FOR para cada letra na variavel palavra convertida para minuscula  '''
 ''' Defini um IF identado no loop se a letras estiver IN "aeiou" '''
 ''' Dentro da identação do IF criei mais um IF se a letra nao estiver na variavel vogal_encontradas,
- a variavel recebe com um metodo .append a letra em maiusculo. '''
+ a variavel recebe com o metodo .append a letra. '''
 ''' Na ultima linha fora do loop eu imprimi a variavel com todas as vogais sem repetição'''
