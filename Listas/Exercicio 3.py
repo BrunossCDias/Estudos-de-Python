@@ -31,4 +31,4 @@ print(f'Os valore ordenados são eles:{lista}')
     mesma posiçãode pos'''
 ''' Feita a impressão de onde foi adicioando formatando o pos como referencia da posição do indice'''
 ''' Pos recebe ele mesmo mais 1 '''
-''' No ultima linha imprimo os valores da lista reposicinados.'''
+''' A ultima linha imprimo os valores da lista em ordem.'''
