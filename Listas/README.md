@@ -12,75 +12,75 @@ Removemos itens utilizando o comando '.del lanche[3]' ou metodos '.pop(posição
 
 Podemos colocar uma lista em ordem com o metodo contem.sort(), ou em ordem recersa com metodo .sort(reverse=True) com parametro reverse=True.
 
-num = [1, 2, 0, 4]
+    num = [1, 2, 0, 4]
 
-print(num)
+    print(num)
 
-num.insert(3, 5)
+    num.insert(3, 5)
 
-print(num)
+    print(num)
 
-num[2] = 6
+    num[2] = 6
 
-num.append(9)
+    num.append(9)
 
-print(num)
+    print(num)
 
-num.sort()
+    num.sort()
 
-print(num)
+    print(num)
 
-num.append(34)
+    num.append(34)
 
-num.append('banana')
+    num.append('banana')
 
-num.insert(0, 'suco')
+    num.insert(0, 'suco')
 
-print(num)
+    print(num)
 
-num.remove('suco')
+    num.remove('suco')
 
-del num[3]
+    del num[3]
 
-print(num)
+    print(num)
 
-num.pop()
+    num.pop()
 
-if 'banana' in num:
+    if 'banana' in num:
 
-    num.remove('banana')
-else:
+        num.remove('banana')
+    else:
 
-    print('Indice não encontrado')
+        print('Indice não encontrado')
 
-print(num)
+    print(num)
 
-num.append(22)
+    num.append(22)
 
-num.append(23)
+    num.append(23)
 
-num.append(25)
+    num.append(25)
 
-num.sort()
+    num.sort()
 
 
 Podemos ultilizar a estrutura de repetição FOR para cada indice em número IN enumerate(num), percorrer
 um conjunto de informações e trazer o indice da variavel.
 
-for indice, numero in enumerate(num):
+    for indice, numero in enumerate(num):
 
     print(f'No indice {indice}  encontrei o valor {numero} !')
 
-print('FIM DA LISTA.')
+    print('FIM DA LISTA.')
 
 As listas podem ser compostas por outras listas, realizando uma cópia dos dados com o método
 .append[:]
     
-Ex. 
-numeros = list()
-print(f'{numeros}')
-numeros.append(num[:])
-print(f'Valores é composta por {numeros}')
+    Ex. 
+    numeros = list()
+    print(f'{numeros}')
+    numeros.append(num[:])
+    print(f'Valores é composta por {numeros}')
 
 
 
