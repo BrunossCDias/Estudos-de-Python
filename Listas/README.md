@@ -73,7 +73,7 @@ for indice, numero in enumerate(num):
 
 print('FIM DA LISTA.')
 
-As listas podem ser compostas por outras listas, realizando uma copia dos dados com o metodo
+As listas podem ser compostas por outras listas, realizando uma cópia dos dados com o método
 .append[:]
     
 Ex. 
@@ -81,6 +81,54 @@ numeros = list()
 print(f'{numeros}')
 numeros.append(num[:])
 print(f'Valores é composta por {numeros}')
+
+
+
+ As listas podem ser variaveis compostas, que permitem armazenar varios valores em uma mesma estrutura, e acessiveis por chaves indivi
+duais, e através dos seus indices.
+
+    dados = list()
+
+    dados.append('Pedro')
+
+    dados.append(25)
+
+    print(dados)
+
+    print(type (dados))
+
+    print(len(dados))
+
+    pessoas = list()
+
+    pessoas.append(dados[:])
+
+    dados.clear()
+
+    pessoas.append(['Jose', 23])
+
+    pessoas.append(['Bruno', 33])
+
+    print(pessoas)
+
+    print(pessoas[1][0])
+
+
+    dados = list ()
+
+    for c in range (0, 3):
+        dados.append(str(input('Nome: ')))
+        dados.append(int(input('Idade: ')))
+        pessoas.append(dados[:])
+        dados.clear()
+
+    print(f'As pessoas que estão convidadas são {pessoas}')
+
+    for p in pessoas:
+        print(f'O {p[0]} tem {p[1]} de idade.')
+
+
+
 
 ===============================================
 
