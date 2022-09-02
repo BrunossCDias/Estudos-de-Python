@@ -25,7 +25,9 @@ por { }, são compostos pelos seus values e keys, usamos os metodos .items() .va
     
 
 '''Neste exemplo de dicionario criei uma variavel Brasil, que recebe uma lista'''
+
 '''Criei duas variaveis Estado1, e 2 que recebe um dicionais com dois itens '''
+
 '''Neste exemplo a lista Brasil vai receber estes itens  '''
 
     estado = dict()
@@ -36,6 +38,7 @@ por { }, são compostos pelos seus values e keys, usamos os metodos .items() .va
     pais.append(estado.copy()) 
 
 laço para a lista.
+
 laço para o dicionário.
 
     for unidade in pais:
