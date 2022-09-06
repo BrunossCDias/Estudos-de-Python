@@ -1,7 +1,6 @@
-def soma(a, b):
-    print(f'A = {a} e B = {b}')
-    s = a + b
-    print(f'A soma A + B = {s}')
+
+def contador(*núm):
+    print(núm)
 
 
-soma(4, 5)
+contador(0, 5, 9, 4, 7)
