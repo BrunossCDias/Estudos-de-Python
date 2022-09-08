@@ -16,7 +16,7 @@ for nota, status in dados.items():
 
 
 ''' Criado uma variavel dados como um dicionario.'''
-''' A variavel dadaos rece o nome e a nota através do teclado com um input'''
-''' Definido um condição IF oara nota se for maior ou igual a 7, é adicionado uma key, e value como aprovado no dicionario'''
+''' A variavel dadaos recebe o nome e a nota através do teclado com um input'''
+''' Definido um condição IF para nota se for maior ou igual a 7, é adicionado uma key, e value como aprovado no dicionario'''
 ''' Da mesma forma é feita com as condições ELIF, e ELSE '''
 ''' Criada um estrutura de repetição, para imprimir cada .items do dicionario'''

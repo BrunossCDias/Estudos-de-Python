@@ -24,9 +24,9 @@ por { }, são compostos pelos seus values e keys, usamos os metodos .items() .va
     print((Brasil[0]['Sigla']))
     
 
-'''Neste exemplo de dicionario criei uma variavel Brasil, que recebe uma lista'''
+'''Neste exemplo criei uma variavel Brasil, que recebe uma lista'''
 
-'''Criei duas variaveis Estado1, e 2 que recebe um dicionais com dois itens '''
+'''Criei duas variaveis Estado1, e 2 que recebe um dicionário com dois itens '''
 
 '''Neste exemplo a lista Brasil vai receber estes itens  '''
 
