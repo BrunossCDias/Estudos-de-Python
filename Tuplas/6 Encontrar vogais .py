@@ -17,31 +17,14 @@ for palavra in tupla_de_palavras:
     print(f'\nNa palavra {palavra}, tem as vogais = ', end='')
     vogais_encontradas = []
     for letra in palavra.lower():
-        if letra in vogais:
-            if letra not in vogais_encontradas:
-                vogais_encontradas.append(letra)
-    print(sorted(vogais_encontradas), end=' ')
+        if letra in vogais and letra not in vogais_encontradas:
+            vogais_encontradas.append(letra)
 
-for vogal in vogais:
-    if vogal in vogais_encontradas:
-        print (vogal)
+    for vogal in vogais:
+        if vogal in vogais_encontradas:
+            print(vogal, end=' ')
 
 
-
-
-
-    ordem = []
-    if 'a' in vogais_encontradas:
-        ordem += 'a'
-    if 'e' in vogais_encontradas:
-        ordem += 'e'
-    if 'i' in vogais_encontradas:
-        ordem += 'í'
-    if 'o' in vogais_encontradas:
-        ordem += 'o'
-    if 'u' in vogais_encontradas:
-        ordem += 'u'
-    print(f'\n {ordem} ',end=' ' )
 
 ''' Defini uma tupla chamada tupla_de_palavras.'''
 ''' Criei um loop FOR palavra para cada item IN tupla_de_palavras. '''
