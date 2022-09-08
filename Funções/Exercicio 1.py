@@ -13,7 +13,7 @@ area(l, c)
 
 
 ''' Criei uma DEF chamada area, com dois parametros larg, e comp .
-    Criado um programa que duas variaveis recebem valores através do teclado 
-    Chamei a função area, passando l e c 
+    Criado um programa em que duas variaveis recebem valores através do teclado 
+    Chamei a função area, passando as variaves l e c 
     Declaro uma variavel a, que vai receber os parametros larg vezes comp 
-    E um imprimo as o resutado formatado cada variavel dentro do print '''
+    E imprimo o resutado formatado cada parametro dentro do print '''
