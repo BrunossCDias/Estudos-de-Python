@@ -6,6 +6,11 @@
 from time import sleep
 
 def contador(i, f, p):
+    if p < 0:
+        p *= -1
+    if p == 0:
+        p = 1
+    print('-='*15)
     print(f'Contagem de {i} até {f} de {p}')
     if i < f:
         cont = i
@@ -22,5 +27,11 @@ def contador(i, f, p):
             cont -= p
 
 
-contador(1, 10, 1)
-contador(100, 10, 10)
+contador(1, 5, 1)
+contador(50, 10, 10)
+print()
+print('Agora é a sua vez !! ')
+init = int(input('Inicio: '))
+fim = int(input('Fim: '))
+passo = int(input('Passo: '))
+contador(init, fim, passo)
