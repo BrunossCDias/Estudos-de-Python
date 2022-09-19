@@ -1,20 +1,20 @@
 def aumentar(preço, taxa):
-    res = preço + (preço * taxa/100)
-    return res
+    calc = preço + (preço * taxa/100)
+    return calc
 
 
 def dimibuir(preço, taxa):
-    res = preço - (preço * taxa/100)
-    return res
+    calc = preço - (preço * taxa/100)
+    return calc
 
 
 def dobro(preço):
-    res = preço * 2
-    return res
+    calc = preço * 2
+    return calc
 
 def metade(preço):
-    res = preço / 2
-    return res
+    calc = preço / 2
+    return calc
 
 
 
