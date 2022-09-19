@@ -15,7 +15,3 @@ def dobro(preço):
 def metade(preço):
     calc = preço / 2
     return calc
-
-
-
-
