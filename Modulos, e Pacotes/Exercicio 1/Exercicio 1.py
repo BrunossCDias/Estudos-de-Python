@@ -1,6 +1,6 @@
 # Programa que importa módulo e use algumas funções conforme a chamada do programa.
 
-from moeda import metade, dobro, aumentar, diminuir
+from calculos import metade, dobro, aumentar, diminuir
 
 p = float(input('Digite o valor: '))
 print(f'A metade de {p}$ é {metade(p)}$')
