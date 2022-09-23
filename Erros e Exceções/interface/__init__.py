@@ -5,7 +5,7 @@ def leiafloat (msgem):
         try:
             m = float(input(msgem))
         except (ValueError, TypeError):
-            print('\033[31mErro : Por Favor digite um valor float valido.\033[m ')
+            print('\033[31mErro : Por Favor digite um valor float valido\033[m ')
             continue
         except (KeyboardInterrupt):
             print('\n\033[31mUsuario preferiu não digitar um valor numerico.\033[m')
