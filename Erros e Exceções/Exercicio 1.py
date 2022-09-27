@@ -20,7 +20,7 @@ while True:
     elif resposta == 2:
         lerarquivo(arq)
     elif resposta == 3:
-        cabecalho('\033[36mSaindo do Sistema\033[m')
+        cabecalho('\033[0;30;41mSaindo do Sistema\033[m')
         break
     else:
         print('\033[31mERRO! Digite uma opção valida !\033[m')

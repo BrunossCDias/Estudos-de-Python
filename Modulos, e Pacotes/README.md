@@ -1,5 +1,5 @@
 
-Utilizamos modulos para sistema cada vez maiores, ou reutilizar em outros projetos
+Utilizamos modulos para sistemas cada vez maiores, ou reutilizar em outros projetos
 O foco é dividir um programa grande para aumentar a legibilidade das linhas.
 Todo arquivo .PY pode ser pontecialmente um modulo, toda pasta é considerada um pacote que utilizamos para em 
 programas maiores.
