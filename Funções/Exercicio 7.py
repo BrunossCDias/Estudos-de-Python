@@ -8,7 +8,7 @@ def fatorial(n, show=False):
     """
     -> Calcula o fatorial de um número.
     parametro n: número a ser calculado.
-    parametro show: opcional mostrar ou não a conta.
+    parametro show: opcional mostrar ou não o calculo.
     return: O valor do fatorial de um número n.
     """
     f = 1
@@ -24,3 +24,4 @@ def fatorial(n, show=False):
 
 
 print(fatorial(10, show=True))
+help(fatorial)
