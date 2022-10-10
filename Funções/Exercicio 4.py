@@ -4,6 +4,9 @@ from time import sleep
 
 
 def maior(*núm):
+    """
+    :param núm: Recebe os parametros desempacotados
+    """
     cont = maior = 0
     print('\nAnalisando os valores inseridos')
     for n in núm:
@@ -15,7 +18,7 @@ def maior(*núm):
             if n > maior:
                 maior = n
         cont += 1
-    print(f'Foi inserido {cont} valores ao todo. ')
+    print(f'\nFoi inserido {cont} valores ao todo. ')
     print(f'O maior valor informado foi {maior}. ')
 
 
