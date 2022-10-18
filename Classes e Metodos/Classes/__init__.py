@@ -24,8 +24,8 @@ class Pessoa:
     def falar(self, celular):
 
         if self.dirigindo:
-            print(f'{self.nome} não pode falar no {celular} dirigindo !')
-            return
+            '''print(f'{self.nome} não pode falar no {celular} dirigindo !')
+            return'''
         if self.falando:
             print(f'{self.nome} ja está falando no {celular} ! ')
             return
@@ -41,33 +41,25 @@ class Pessoa:
         self.falando = False
 
     def estado(self):
-
-        return {'dirigindo': self.dirigindo, 'falando': self.falando}
+        return print(f'Dirigindo: {self.dirigindo}, Falando: {self.falando}')
 
     def verifica_estado(self, dirigindo , falando):
-        validacao = (self.dirigindo == dirigindo and self.falando == falando)
-        print(f'validacao: {validacao}')
-        if (self.dirigindo == dirigindo and self.falando == falando ):
-            return True
-        return False
 
-
-
-
-    # 1 Crie uma nova função que chama verifica_estado.
-    # 2 Essa função deverá verificar se os parametros do estado esperado é igual o estado atual do objeto.
-    # 3 Deverá retornar true quando for igual e false quando algum estado for diferente.
-
-
-    ''' 
-    def verifica_estado(self, dirigindo, falando) -> bool:
         if self.dirigindo == dirigindo and self.falando == falando:
-            return True
-        return False
-    '''
+            validacao = True
+            return print(f'Validação :{validacao}')
+        else:
+            validacao = False
+            return print(f'Validação :{validacao}')
+
+
+
 
 
     def imprime_estado(self):
       return print(f'Dirigindo: {self.dirigindo}, Falando: {self.falando} ')
 
 
+    # 1 Crie uma nova função que chama verifica_estado.
+    # 2 Essa função deverá verificar se os parametros do estado esperado é igual o estado atual do objeto.
+    # 3 Deverá retornar true quando for igual e false quando algum estado for diferente.
