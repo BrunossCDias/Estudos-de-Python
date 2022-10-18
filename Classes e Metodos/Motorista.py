@@ -11,20 +11,48 @@ motorista.dirigir('caminhao')
 motorista.dirigir('carro')
 motorista.falar('WhatsApp')
 motorista.parardirigir('caminhão')
-print(motorista.estado())
-motorista.falar('WhatsApp')
-print(motorista.estado())
-motorista.pararfalar('Whatsapp')
+
+
+
+
+
+
+
+
+
+
+
+
+
+# 1 Verificar o estado do objeto
+# 2 Verificar cada possibilidade
+motorista.falar('Celular')
 motorista.dirigir('Carro')
-motorista2 = Pessoa('Bruno', 32)
-print(motorista2.sexo)
-motorista2.falar('WhatsApp')
+motorista.estado()
+motorista.verifica_estado(False, True)
+motorista.verifica_estado(True, False)
+motorista.verifica_estado(True, True)
+motorista.verifica_estado(False, False)
+motorista.parardirigir('Carro')
+motorista.pararfalar('Celular')
+motorista.estado()
+motorista.verifica_estado(False, True)
+motorista.verifica_estado(True, False)
+motorista.verifica_estado(True, True)
+motorista.verifica_estado(False, False)
 motorista.dirigir('Carro')
-print('===========-==============')
-print(motorista.estado())
-retorno_verifica_estado = motorista.verifica_estado(False, True)
-print(retorno_verifica_estado)
-a = motorista.verifica_estado(False, True)
-print(a)
+motorista.pararfalar('Celular')
+motorista.estado()
+motorista.verifica_estado(False, True)
+motorista.verifica_estado(True, False)
+motorista.verifica_estado(True, True)
+motorista.verifica_estado(False, False)
+motorista.parardirigir('Carro')
+motorista.falar('Celular')
+motorista.estado()
+motorista.verifica_estado(False, True)
+motorista.verifica_estado(True, False)
+motorista.verifica_estado(True, True)
+motorista.verifica_estado(False, False)
 
 
