@@ -8,6 +8,4 @@ class Cubo:
         return 'Cubo calculado : ' + str(cubo)
 
 
-Teste = Cubo(500)
-a = Teste.calcula()
-print(a)
+
