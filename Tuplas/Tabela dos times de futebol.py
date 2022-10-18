@@ -9,6 +9,8 @@
 brasileirao = ('Palmeiras', 'Flamengo', 'Corinthians', 'Fluminense', 'Athletico-PR', 'Internacional',
                'Atlético-MG', 'América-MG', 'Bragantino', 'Santos', 'SãoPaulo', 'Botafogo', 'Goiás',
                'Ceará', 'Fortaleza', 'Cuiabá', 'Avaí', 'Coritiba', 'Atlético-GO', 'Juventude')
+
+print(brasileirao)
 print('-='*30)
 print(f'Os 5 primeiros times da tabela do brasileirão são eles {brasileirao[0:5]}')
 print('-='*30)
