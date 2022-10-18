@@ -25,9 +25,10 @@
     Metodos estaticos não precisam de uma referência, não recebem um primeiro argumento especial (self). 
     É como uma função simples que, por acaso, reside no corpo de uma classe em vez de ser definida no nível do módulo.
     
-    Henraça
+    Henraça é o relacinamento, podendo assim criar uma classe com atributos e metodos de outra classe, evitando se assim
+        uma repetição de codito.
 
-    Encapsulamento
+    Encapsulamento 
 
     Polismorfismo são muitas formas do objeto, dependendo de como ele é chamado, e seus atributos podendo retornar funci
         onalidades diferentes ou comportamentos distintos
