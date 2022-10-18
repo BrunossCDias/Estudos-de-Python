@@ -9,7 +9,10 @@ listagem = ('Lapis', 1.75,
             'Mochila', 15.50,
             'Estojo', 3.50,
             'Caneta', 2.50)
-print("TABELA DE PREÇOS")
+
+print("="*38)
+print("{:^36}".format("LISTAGEM DE PREÇOS"))
+print("="*38)
 
 for tabela in range(0, len(listagem)):
     if tabela % 2 == 0:
