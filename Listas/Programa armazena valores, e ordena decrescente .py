@@ -1,9 +1,10 @@
-# Programa que vai ler vários números e colocar em uma lista. Depois disso, mostre:
+# Programa que vai ler vários números e colocar em uma lista.
+# Depois disso, mostre:
 # A) Quantos números foram digitados.
 # B) A lista de valores, ordenada de forma decrescente.
 # C) Se o valor 5 foi digitado e está ou não na lista.
 
-valores = []
+valores = list()
 while True:
     valores.append(int(input('Digite um valor: ')))
     continuar = str(input('Quer continuar : [S/N]'))
