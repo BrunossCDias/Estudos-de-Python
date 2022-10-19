@@ -2,7 +2,7 @@
 # Programa onde o usuário possa digitar cinco valores numéricos e cadastre-os em uma lista,
 # já na posição correta de inserção (sem usar o sort()).
 # No final, mostre a lista ordenada na tela.
-lista = []
+lista = list()
 for c in range(0, 5):
     valor = input('Digite um valor: ')
     if c == 0 or valor > lista[-1]:
@@ -27,8 +27,8 @@ print(f'Os valore ordenados são eles:{lista}')
 ''' Defini um ELSE'''
 ''' Uma variavel pos recebe 0'''
 ''' Enquanto WHILE pos for menor que len da lista '''
-''' Se IF valor for menor ou igual ao indice da lista na posição pos, é inserido o valor na 
-    mesma posiçãode pos'''
-''' Feita a impressão de onde foi adicioando formatando o pos como referencia da posição do indice'''
-''' Pos recebe ele mesmo mais 1 '''
+''' Se IF valor for menor ou igual ao elemento da lista no indice POS, é inserido o valor na 
+    mesma posição de POS'''
+''' Feita a impressão de onde foi adicioando formatando o POS como referencia da posição do indice'''
+''' POS recebe ele mesmo mais 1 '''
 ''' A ultima linha imprimo os valores da lista em ordem.'''
