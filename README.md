@@ -1,4 +1,4 @@
-# Estudos-de-Python 
+# 
 ![](https://i.imgur.com/waxVImv.png)
    Neste repositorio estou alimentando todos os meus resumos de conhecimentos relativos aos conteudos sobre a linguem de programação Python.
 A cada momento entre um novo conteudo, e os exercícios faço uma revisão de tudo, e corrijo-me nos detalhes que vejo necessário, obtendo assim melhorias no conteúdo, e fixando o meu conhecimento.
